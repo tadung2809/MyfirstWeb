@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1 style="font-weight: bold; text-align: center;">Survey Form For Student</h1>
+    <div class="formTable align-items-center justify-content-center">
+        <label for="name">Name</label>
+        <input type="text" class="form-control input" placeholder="Enter your name">
+        <br>
+        <label for="email">Email</label>
+        <input type="email" class="form-control input" placeholder="Enter your email">
+        <br>
+        <label for="name">Age</label>
+        <input type="number" class="form-control input" placeholder="Enter your age">
+        <br>
+        <label for="option">Which option best describes you?</label>
+        <br>
+        <select class="form-select input" style="width: 80%">
+            <option selected>None</option>
+            <option value="Teacher">Teacher</option>
+            <option value="Student">Student</option>
+            <option value="Developer">Developer</option>
+          </select>
+        <br>
+        <br>
+        <label for="language">Language and Framework known (Check all that applied)</label>
+        <br>
+        <input class="inputRadio" id="C" type="radio" name="fav_language" value="C">
+        <label for="C">C</label><br>
+        <input class="inputRadio" id="C++"type="radio"  name="fav_language" value="C++">
+        <label for="C++">C++</label><br>
+        <input class="inputRadio" id="C#" type="radio"  name="fav_language" value="C#">
+        <label for="C#">C#</label><br>
+        <input class="inputRadio" id="Java" type="radio" name="fav_language" value="Java">
+        <label for="Java">Java</label><br>
+        <input class="inputRadio" id="Python" type="radio"  name="fav_language" value="Python">
+        <label for="Python">Python</label><br>
+        <input class="inputRadio" id="Javascript" type="radio"  name="fav_language" value="JavaScript">
+        <label for="Javascript">JavaScript</label><br>
+        <input class="inputRadio" id="React" type="radio" name="fav_language" value="React">
+        <label for="React">React</label><br>
+        <input class="inputRadio" id="Angular" type="radio"  name="fav_language" value="Angular">
+        <label for="Angular">Angular</label><br>
+        <input class="inputRadio" id="Django" type="radio"  name="fav_language" value="Django">
+        <label for="Django">Django</label><br>
+        <input class="inputRadio" id="Spring" type="radio"  name="fav_language" value="Spring">
+        <label for="Spring">Spring</label>
+    <br>
+    <label for="comment">Any comments or suggestions</label>
+    <textarea class="form-control" style="width: 96%; margin-left: 2%;" id="exampleFormControlTextarea1" rows="3"></textarea>
+    <br>
+    <button type="button" style="width: 96%; margin-left: 2%; background-color: #F1CB9C;">Submit</button>
+    </div>
+    
+</body>
+</html>

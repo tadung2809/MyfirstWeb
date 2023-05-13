@@ -1,0 +1,23 @@
+body {
+    background-color: #F0790A;
+    
+}
+
+.formTable {
+    background-color: white;
+    height: 100%;
+    width: 30%;
+    margin:auto;
+    border-radius: 2px solid black;
+}
+label {
+   padding-left: 2%; 
+}
+.input {
+   width: 90%; 
+   margin-left: 2%;
+}
+
+.inputRadio{
+    margin-left: 2%;
+}
